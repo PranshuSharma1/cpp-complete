@@ -6,7 +6,7 @@ void sieve(int n){
 
     int s[100]={0};
 
-    for (int i=2;i<+n;i++){
+    for (int i=2;i<+n;i++){  // here this is 2 because , 1 divides everything 
 
         if(s[i]==0){
             for(int j=i*i; j<=n; j+=i){
