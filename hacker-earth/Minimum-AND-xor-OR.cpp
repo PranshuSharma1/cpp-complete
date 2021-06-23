@@ -1,4 +1,5 @@
 #include<iostream>
+#include<algorithm>
 
 using namespace std;
 
@@ -20,6 +21,7 @@ int main(){
         int temp_min;
         int min_int=INT16_MAX;
         int i=0;
+        sort(ar,ar+n);
         for(int j=i+1;j<n;j++){
             
             temp_min=( ar[i] & ar[j] ) ^ (ar[i] | ar[j]);
