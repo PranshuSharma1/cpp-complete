@@ -1,4 +1,2 @@
-if(s[0]=='p'&&s[1]=='i'){
-        cout<<"3.14";
-        
-    }
+
+    cout<<"the anser string is :- "<<ans<<endl;
