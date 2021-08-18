@@ -42,7 +42,7 @@ void count_sort(int arr[], int n){
     // }
     cout<<endl;
     for(int i=n-1;i>0;i--){
-        cout<<arr[i]<<" , "<<endl;
+        // cout<<arr[i]<<" , "<<endl;
         p_arr[arr[i]]--;
         // cout<<endl;
         // cout<<p_arr[arr[i]];
@@ -70,3 +70,8 @@ int main(){
 
     return 0;
 }
+
+/* 
+the output of the program is :- 
+1 , 1 , 2 , 3 , 3 , 3 , 4 , 4 , 6 , 
+*/
