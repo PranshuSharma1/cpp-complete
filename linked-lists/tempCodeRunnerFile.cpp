@@ -1,11 +1,3 @@
-L(node* head){
-    node* temp=head;
 
-    while(temp->ptr!=NULL){
-        cout<<temp->data<<" | "<<temp->ptr<<" ==> ";
-
-        temp=temp->ptr;
-    }
-    cout<<endl;
-
-}
+        // display(next);
+        // cout<<"the value of recusrsive reverseK_node func value :- "<<reverseK_node(next,k)<<endl;
