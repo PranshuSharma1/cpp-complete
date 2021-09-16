@@ -71,7 +71,7 @@ void append_last_k_node(node* &head, int k){
     int len=length(head);
 
     int tail_count=len-k, count=1;
-    if(tail_count<0){
+    if(tail_count<0){                   // or a better way could be tail_count=len%k, which will get us a reminder of this
         cout<<"the operation is not being able to be done "<<endl;
     }
     node* temp=head;
