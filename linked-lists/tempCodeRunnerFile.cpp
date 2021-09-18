@@ -1,3 +1,2 @@
 
-
-    display(head);
+    // insert(head,5);
